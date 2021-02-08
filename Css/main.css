@@ -7385,3 +7385,38 @@ main {
       color: #B2B2B2;
       font-size: 16px;
       margin-left: 2em; }
+
+.contenidoPrincipalCursos {
+  background-color: white;
+  height: 740px;
+  width: 100%;
+  color: royalblue;
+  display: inline; }
+  .contenidoPrincipalCursos section {
+    width: 20%;
+    display: inline-block;
+    margin-top: 50px;
+    align-content: center;
+    margin-bottom: 50px;
+    margin-left: 55px; }
+    .contenidoPrincipalCursos section img {
+      width: 100%;
+      display: block;
+      margin-top: 1em;
+      margin-left: auto;
+      margin-right: auto; }
+    .contenidoPrincipalCursos section img:hover {
+      opacity: 0.75; }
+    .contenidoPrincipalCursos section h3 {
+      color: white;
+      background: #00FF41;
+      font-size: x-large;
+      padding: 12px;
+      text-align: center;
+      margin-bottom: 1em; }
+    .contenidoPrincipalCursos section p {
+      color: #B2B2B2;
+      font-size: medium;
+      text-align: justify;
+      line-height: 250%;
+      padding: 20px; }

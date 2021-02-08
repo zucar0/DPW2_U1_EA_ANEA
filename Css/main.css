@@ -7216,19 +7216,33 @@ a.text-dark:hover, a.text-dark:focus {
       display: inline-block;
       margin-top: 55px;
       margin: auto;
-      width: 14%;
-      text-align: center; }
+      width: 182px;
+      text-align: center;
+      background-color: #CBCBCB;
+      text-decoration: none; }
       .header nav ul li a {
+        color: #CF1BBB;
+        padding: 10px;
         display: inline-block;
-        text-decoration: none;
         font-size: 16px; }
+    .header nav ul li:hover {
+      background-color: #f188e5;
+      color: white !important; }
+      .header nav ul li:hover a:hover {
+        color: white; }
+    .header nav ul li:active {
+      background-color: #CF1BBB; }
+    .header nav ul .botonSeleccionado {
+      background-color: #CF1BBB; }
+      .header nav ul .botonSeleccionado a {
+        color: white; }
   .header nav .contenedorMenu {
     margin-top: 55px; }
   .header nav .usuario {
     display: inline-block;
     width: 30px;
     float: right;
-    margin-right: 50px;
+    margin-right: 35px;
     margin-top: -75px; }
   .header nav .usuario:hover {
     cursor: pointer;

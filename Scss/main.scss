@@ -34,16 +34,34 @@
             li{
                 display: inline-block;
                 margin-top: 55px;
-
                 margin: auto;
-                width: 14%;
+                width: 182px;
                 text-align:center;
-
+                background-color: #CBCBCB;
+                text-decoration: none;
                 a{
+                    //Colores
+                    color: #CF1BBB;
+                    padding: 10px;
                     display: inline-block;
-                    text-decoration: none;
                     font-size: 16px;
                 }
+
+
+            }
+            li:hover{
+                background-color: #f188e5;
+                color: $color-blanco !important;
+                a:hover{
+                    color: $color-blanco;
+                }
+            }
+            li:active{
+                background-color: #CF1BBB;
+            }
+            .botonSeleccionado{
+                background-color: #CF1BBB;
+                a{color: $color-blanco;}
             }
         }
         .contenedorMenu{
@@ -53,7 +71,7 @@
             display: inline-block;
             width: 30px;
             float: right;
-            margin-right: 50px;
+            margin-right: 35px;
             margin-top: -75px;
         }
         .usuario:hover{

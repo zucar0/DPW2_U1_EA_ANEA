@@ -123,13 +123,47 @@ main{
     height: $altoFooter;
     width: 100%;
     color: $color-blanco;
-    .textoFooter{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    .logoFooter{
+        display: inline-block;
+        width: 10%;
+        padding: 15px;
+    }
+    .nuestraOrganizacion{
+        display: inline-block;
         color: $color-blanco;
         background-color: red;
         font-size: medium;
-        width: 350px;
+        width: 15%;
         height: 50px;
     }
+    .siguenos{
+        display: inline-block;
+        color: $color-blanco;
+        background-color: red;
+        font-size: medium;
+        width: 15%;
+        height: 50px;
+    }
+    .avisoLegal{
+        display: inline-block;
+        color: $color-blanco;
+        background-color: red;
+        font-size: medium;
+        width: 15%;
+        height: 50px;
+    }
+    .contacto{
+        display: inline;
+        color: $color-blanco;
+        background-color: red;
+        font-size: medium;
+        width: 15%;
+        height: 50px;
+    }
+
 
 }
 

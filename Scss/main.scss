@@ -324,3 +324,165 @@ main{
         }
     }
 }
+
+//Contenido en main de Diplomados
+.contenidoPrincipalDiplomados{
+    background-color: $color-blanco;
+    height: $altoMain;
+    width: 100%;
+    color: royalblue;
+    display: inline-block;
+    section{
+        width: 100%;
+        display: inline;
+        align-content: center;
+        margin-bottom: 25px;
+        div{
+            text-align: left;
+            .logoMicrosoft{
+                float:left;
+                width: 45%;
+            }
+        }
+        
+        .puntoNet{
+            padding: 25px;
+            margin-left: 45px;
+            text-align: center;
+            h3{
+                color: $color-negro;
+                font-size: xx-large;
+                padding: 25px;
+                text-align: center;
+            }
+            p{
+                color: $color-gris-texto-cursos;
+                font-size:medium;
+                line-height: 250%;
+                padding: 5px;
+                margin-left: auto;
+                margin-right: auto;
+
+            }
+            a{
+                color: $color-negro;
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 250%;
+            }
+            a:hover{
+                color: $color-morado;
+            }
+        }
+
+        // div.javaLogo{
+        //     text-align: right;
+        //     width: 100%;
+        //     .logoJava{
+        //         float: right;
+        //         width: 45%;
+        //     }
+        // }
+
+        // .java{
+        //     padding: 25px;
+        //     margin-right: 45px;
+        //     text-align: center;
+        //     width: 40%;
+        //     h3{
+        //         color: $color-negro;
+        //         font-size: xx-large;
+        //         padding: 25px;
+        //         text-align: center;
+        //     }
+        //     p{
+        //         color: $color-gris-texto-cursos;
+        //         font-size:medium;
+        //         line-height: 250%;
+        //         padding: 5px;
+        //         margin-left: auto;
+        //         margin-right: auto;
+
+        //     }
+        //     a{
+        //         color: $color-negro;
+        //         font-size: 18px;
+        //         font-weight: 600;
+        //         line-height: 250%;
+        //     }
+        //     a:hover{
+        //         color: $color-morado;
+        //     }
+        // }
+        div{
+            text-align: right;
+            width: 100%;
+            .logoJavaScript{
+                float: right;
+                width: 45%;
+            }
+        }
+        .javasciptTexto{
+            padding: 25px;
+            margin-right: 45px;
+            text-align: center;
+            width: 40%;
+            h3{
+                color: $color-negro;
+                font-size: xx-large;
+                padding: 25px;
+                text-align: center;
+            }
+            p{
+                color: $color-gris-texto-cursos;
+                font-size:medium;
+                line-height: 250%;
+                padding: 5px;
+                margin-left: auto;
+                margin-right: auto;
+
+            }
+            a{
+                color: $color-negro;
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 250%;
+            }
+            a:hover{
+                color: $color-morado;
+            }
+        }
+        
+    }
+
+    .javaS{
+        display: flex;
+        width: 100%;
+        .java{
+            display: inline-block;
+            width: 50%;
+            a{
+                color: $color-negro;
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 250%;
+            }
+            a:hover{
+                color: $color-morado;
+            }
+            p{
+                color: $color-gris-texto-cursos;
+                font-size:medium;
+                line-height: 250%;
+                padding: 5px;
+                margin-left: 20px;
+                margin-right: auto;
+
+            }
+        }
+        .javaLogo{
+            width:100%;
+        }
+    }
+
+}

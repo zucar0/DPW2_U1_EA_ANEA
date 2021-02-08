@@ -7447,3 +7447,95 @@ main {
       font-size: medium;
       text-align: justify;
       line-height: 250%; }
+
+.contenidoPrincipalDiplomados {
+  background-color: white;
+  height: 740px;
+  width: 100%;
+  color: royalblue;
+  display: inline-block; }
+  .contenidoPrincipalDiplomados section {
+    width: 100%;
+    display: inline;
+    align-content: center;
+    margin-bottom: 25px; }
+    .contenidoPrincipalDiplomados section div {
+      text-align: left; }
+      .contenidoPrincipalDiplomados section div .logoMicrosoft {
+        float: left;
+        width: 45%; }
+    .contenidoPrincipalDiplomados section .puntoNet {
+      padding: 25px;
+      margin-left: 45px;
+      text-align: center; }
+      .contenidoPrincipalDiplomados section .puntoNet h3 {
+        color: #000000;
+        font-size: xx-large;
+        padding: 25px;
+        text-align: center; }
+      .contenidoPrincipalDiplomados section .puntoNet p {
+        color: #B2B2B2;
+        font-size: medium;
+        line-height: 250%;
+        padding: 5px;
+        margin-left: auto;
+        margin-right: auto; }
+      .contenidoPrincipalDiplomados section .puntoNet a {
+        color: #000000;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 250%; }
+      .contenidoPrincipalDiplomados section .puntoNet a:hover {
+        color: #CF1BBB; }
+    .contenidoPrincipalDiplomados section div {
+      text-align: right;
+      width: 100%; }
+      .contenidoPrincipalDiplomados section div .logoJavaScript {
+        float: right;
+        width: 45%; }
+    .contenidoPrincipalDiplomados section .javasciptTexto {
+      padding: 25px;
+      margin-right: 45px;
+      text-align: center;
+      width: 40%; }
+      .contenidoPrincipalDiplomados section .javasciptTexto h3 {
+        color: #000000;
+        font-size: xx-large;
+        padding: 25px;
+        text-align: center; }
+      .contenidoPrincipalDiplomados section .javasciptTexto p {
+        color: #B2B2B2;
+        font-size: medium;
+        line-height: 250%;
+        padding: 5px;
+        margin-left: auto;
+        margin-right: auto; }
+      .contenidoPrincipalDiplomados section .javasciptTexto a {
+        color: #000000;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 250%; }
+      .contenidoPrincipalDiplomados section .javasciptTexto a:hover {
+        color: #CF1BBB; }
+  .contenidoPrincipalDiplomados .javaS {
+    display: flex;
+    width: 100%; }
+    .contenidoPrincipalDiplomados .javaS .java {
+      display: inline-block;
+      width: 50%; }
+      .contenidoPrincipalDiplomados .javaS .java a {
+        color: #000000;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 250%; }
+      .contenidoPrincipalDiplomados .javaS .java a:hover {
+        color: #CF1BBB; }
+      .contenidoPrincipalDiplomados .javaS .java p {
+        color: #B2B2B2;
+        font-size: medium;
+        line-height: 250%;
+        padding: 5px;
+        margin-left: 20px;
+        margin-right: auto; }
+    .contenidoPrincipalDiplomados .javaS .javaLogo {
+      width: 100%; }

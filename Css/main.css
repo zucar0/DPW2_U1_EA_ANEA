@@ -7420,3 +7420,30 @@ main {
       text-align: justify;
       line-height: 250%;
       padding: 20px; }
+
+.contenidoPrincipalTalleres {
+  background-color: white;
+  height: 740px;
+  width: 100%;
+  color: #B2B2B2;
+  display: inline; }
+  .contenidoPrincipalTalleres section {
+    color: #B2B2B2;
+    width: 40%;
+    margin-top: 50px;
+    margin-bottom: 50px; }
+    .contenidoPrincipalTalleres section img {
+      display: inline;
+      width: 70%;
+      margin-left: 105px;
+      margin-bottom: 35px; }
+    .contenidoPrincipalTalleres section h3 {
+      color: #000000;
+      font-size: xx-large;
+      padding: 25px;
+      text-align: center; }
+    .contenidoPrincipalTalleres section p {
+      color: #B2B2B2;
+      font-size: medium;
+      text-align: justify;
+      line-height: 250%; }

@@ -3,7 +3,6 @@
 @import './node_modules/bootstrap/scss/bootstrap.scss';
 @import './cursos';
 
-
 *{
     padding: 0px;
     margin: 0px;
@@ -48,8 +47,6 @@
                     display: inline-block;
                     font-size: 16px;
                 }
-
-
             }
             li:hover{
                 background-color: #f188e5;
@@ -80,10 +77,7 @@
             cursor: pointer;
             border-radius: 5px;
             background-color: purple;        }
-
     }   
-
-
 }
 
 main{
@@ -257,7 +251,6 @@ main{
 }
 
 //Contenido en main de Cursos
-
 .contenidoPrincipalCursos{
     background-color: $color-blanco;
     height: $altoMain;
@@ -295,6 +288,39 @@ main{
             text-align: justify;
             line-height: 250%;
             padding: 20px;
+        }
+    }
+}
+
+//Cotenido en main de Talleres
+.contenidoPrincipalTalleres{
+    background-color: $color-blanco;
+    height: $altoMain;
+    width: 100%;
+    color: $color-gris-texto-cursos;
+    display: inline;
+    section{
+        color: $color-gris-texto-cursos;
+        width: 40%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        img{
+            display: inline;
+            width: 70%;
+            margin-left: 105px;
+            margin-bottom: 35px;
+        }
+        h3{
+            color: $color-negro;
+            font-size: xx-large;
+            padding: 25px;
+            text-align: center;
+        }
+        p{
+            color: $color-gris-texto-cursos;
+            font-size:medium;
+            text-align: justify;
+            line-height: 250%;
         }
     }
 }

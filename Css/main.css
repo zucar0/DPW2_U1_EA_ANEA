@@ -7284,37 +7284,104 @@ main {
   width: 100%;
   color: white;
   display: inline-block;
-  margin-left: auto;
-  margin-right: auto; }
+  align-content: space-between; }
   .footer .logoFooter {
+    vertical-align: middle;
     display: inline-block;
-    width: 10%;
-    padding: 15px; }
+    width: 8%;
+    padding: 15px;
+    margin-left: 55px;
+    margin-bottom: 55px; }
   .footer .nuestraOrganizacion {
     display: inline-block;
     color: white;
-    background-color: red;
+    background-color: transparent;
     font-size: medium;
-    width: 15%;
-    height: 50px; }
+    width: 22%; }
+    .footer .nuestraOrganizacion h3 {
+      margin-top: 15px;
+      color: #666666;
+      font-size: 20px;
+      font-weight: 500;
+      padding: 5px;
+      margin-left: 1em; }
+    .footer .nuestraOrganizacion p a {
+      color: #B2B2B2;
+      font-size: 16px;
+      margin-left: 2em; }
   .footer .siguenos {
     display: inline-block;
     color: white;
-    background-color: red;
+    background-color: transparent;
     font-size: medium;
-    width: 15%;
-    height: 50px; }
-  .footer .avisoLegal {
+    width: 22%; }
+    .footer .siguenos h3 {
+      margin-top: 15px;
+      color: #666666;
+      font-size: 20px;
+      font-weight: 500;
+      padding: 5px;
+      margin-left: 1em; }
+    .footer .siguenos p {
+      font-size: 16px;
+      margin-left: 2em;
+      display: inline-block; }
+    .footer .siguenos .fa {
+      padding: 5px;
+      font-size: 20px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 10px;
+      border-radius: 45%; }
+    .footer .siguenos .fa:hover {
+      opacity: 0.7; }
+    .footer .siguenos .fa-facebook {
+      background: #3B5998;
+      color: white; }
+    .footer .siguenos .fa-twitter {
+      background: #55ACEE;
+      color: white; }
+    .footer .siguenos .fa-youtube {
+      background: #bb0000;
+      color: white; }
+  .footer .aviso {
     display: inline-block;
     color: white;
-    background-color: red;
+    background-color: transparent;
     font-size: medium;
-    width: 15%;
-    height: 50px; }
+    width: 22%; }
+    .footer .aviso h3 {
+      margin-top: 15px;
+      color: #666666;
+      font-size: 20px;
+      font-weight: 500;
+      padding: 5px;
+      margin-left: 1em; }
+    .footer .aviso p {
+      color: #B2B2B2;
+      font-size: 16px;
+      margin-left: 2em;
+      text-decoration: none; }
+      .footer .aviso p a {
+        color: #B2B2B2;
+        font-size: 16px;
+        margin-left: 2em;
+        text-decoration: none; }
   .footer .contacto {
-    display: inline;
+    display: inline-block;
     color: white;
-    background-color: red;
+    background-color: transparent;
     font-size: medium;
-    width: 15%;
-    height: 50px; }
+    width: 22%; }
+    .footer .contacto h3 {
+      margin-top: 15px;
+      color: #666666;
+      font-size: 20px;
+      font-weight: 500;
+      padding: 5px;
+      margin-left: 1em; }
+    .footer .contacto p a {
+      color: #B2B2B2;
+      font-size: 16px;
+      margin-left: 2em; }

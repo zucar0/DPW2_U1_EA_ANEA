@@ -124,47 +124,133 @@ main{
     width: 100%;
     color: $color-blanco;
     display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
+    align-content: space-between;
     .logoFooter{
+        vertical-align: middle;
         display: inline-block;
-        width: 10%;
+        width: 8%;
         padding: 15px;
+        margin-left: 55px;
+        margin-bottom: 55px;
+
     }
     .nuestraOrganizacion{
         display: inline-block;
         color: $color-blanco;
-        background-color: red;
+        background-color: transparent;
         font-size: medium;
-        width: 15%;
-        height: 50px;
+        width: 22%;
+        h3{
+            margin-top: 15px;
+            color: $color-gris-footer;
+            font-size: 20px;
+            font-weight: 500;
+            padding: 5px;
+            margin-left: 1em;
+        }
+        p{
+            a{
+                color: $color-texto-footer;
+                font-size: 16px;
+                margin-left: 2em;
+            }
+        }
+
     }
     .siguenos{
         display: inline-block;
         color: $color-blanco;
-        background-color: red;
+        background-color: transparent;
         font-size: medium;
-        width: 15%;
-        height: 50px;
+        width: 22%;
+        h3{
+            margin-top: 15px;
+            color: $color-gris-footer;
+            font-size: 20px;
+            font-weight: 500;
+            padding: 5px;
+            margin-left: 1em;
+        }
+        p{
+            font-size: 16px;
+            margin-left: 2em;
+            display: inline-block;
+        }
+        .fa {
+            padding: 5px;
+            font-size: 20px;
+            width: 30px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 10px;
+            border-radius: 45%;
+        }
+        .fa:hover {
+            opacity: 0.7;
+        }
+        .fa-facebook{
+            background: #3B5998;
+            color: white;
+        }
+        .fa-twitter{
+            background: #55ACEE;
+            color: white;
+        }
+        .fa-youtube {
+            background: #bb0000;
+            color: white;
+        }
     }
-    .avisoLegal{
+
+    .aviso{
         display: inline-block;
         color: $color-blanco;
-        background-color: red;
+        background-color: transparent;
         font-size: medium;
-        width: 15%;
-        height: 50px;
+        width: 22%;
+        h3{
+            margin-top: 15px;
+            color: $color-gris-footer;
+            font-size: 20px;
+            font-weight: 500;
+            padding: 5px;
+            margin-left: 1em;
+        }
+        p{
+            color: $color-texto-footer;
+            font-size: 16px;
+            margin-left: 2em;
+            text-decoration: none;
+            a{
+                color: $color-texto-footer;
+                font-size: 16px;
+                margin-left: 2em;
+                text-decoration: none;
+            }
+ 
+        }
     }
+
     .contacto{
-        display: inline;
+        display: inline-block;
         color: $color-blanco;
-        background-color: red;
+        background-color: transparent;
         font-size: medium;
-        width: 15%;
-        height: 50px;
+        width: 22%;
+        h3{
+            margin-top: 15px;
+            color: $color-gris-footer;
+            font-size: 20px;
+            font-weight: 500;
+            padding: 5px;
+            margin-left: 1em;
+        }
+        p{
+            a{
+                color: $color-texto-footer;
+                font-size: 16px;
+                margin-left: 2em;
+            }
+        }
     }
-
-
 }
-
-

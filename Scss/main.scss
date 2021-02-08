@@ -33,16 +33,21 @@
             margin-top: 25px;
             li{
                 display: inline-block;
+                margin-top: 55px;
 
-                width: 10%;
+                margin: auto;
+                width: 14%;
                 text-align:center;
 
                 a{
-                    display: block;
+                    display: inline-block;
                     text-decoration: none;
                     font-size: 16px;
                 }
             }
+        }
+        .contenedorMenu{
+            margin-top: 55px;
         }
         .usuario{
             display: inline-block;

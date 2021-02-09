@@ -7658,3 +7658,60 @@ main {
       padding: 40px; }
     .contenidoPrincipalDesarrollo section p:hover {
       border: 1px solid blueviolet; }
+
+.contenidoPrincipalConferencias {
+  background-color: white;
+  height: 740px;
+  width: 100%;
+  color: royalblue;
+  display: inline; }
+  .contenidoPrincipalConferencias section {
+    width: 45%;
+    display: inline-block;
+    margin-top: 50px;
+    align-content: center;
+    margin-bottom: 50px; }
+    .contenidoPrincipalConferencias section img {
+      width: 55%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
+    .contenidoPrincipalConferencias section h3 {
+      color: #000000;
+      font-size: xx-large;
+      padding: 25px;
+      text-align: center; }
+    .contenidoPrincipalConferencias section p {
+      color: #000000;
+      font-size: medium;
+      text-align: justify;
+      line-height: 250%; }
+  .contenidoPrincipalConferencias .primeraLinea {
+    display: flex;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #B2B2B2; }
+    .contenidoPrincipalConferencias .primeraLinea .precio h4 {
+      font-size: 18px;
+      color: #CF1BBB;
+      font-weight: 500; }
+    .contenidoPrincipalConferencias .primeraLinea .precio .costo {
+      color: #000000;
+      font-size: 25px;
+      font-weight: 500; }
+    .contenidoPrincipalConferencias .primeraLinea .descripcion p {
+      color: #B2B2B2; }
+    .contenidoPrincipalConferencias .primeraLinea .asiste {
+      float: right; }
+      .contenidoPrincipalConferencias .primeraLinea .asiste p {
+        text-align: center;
+        padding: 10px;
+        background-color: #CF1BBB;
+        color: white;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5%; }
+      .contenidoPrincipalConferencias .primeraLinea .asiste p:hover {
+        opacity: 0.5; }

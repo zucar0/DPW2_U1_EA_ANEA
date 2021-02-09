@@ -639,3 +639,84 @@ main{
         }
     }
 }
+
+//Contenido en main de Conferencias
+.contenidoPrincipalConferencias{
+    background-color: $color-blanco;
+    height: $altoMain;
+    width: 100%;
+    color: royalblue;
+    display: inline;
+    section{
+        width: 45%;
+        display: inline-block;
+        margin-top: 50px;
+        align-content: center;
+        margin-bottom: 50px;
+        img{
+            width: 55%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        h3{
+            color: $color-negro;
+            font-size: xx-large;
+            padding: 25px;
+            text-align: center;
+        }
+        p{
+            color: $color-negro;
+            font-size:medium;
+            text-align: justify;
+            line-height: 250%;
+        }
+    }
+    .primeraLinea{
+        display: flex;
+        // background-color: brown;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        color: $color-gris-texto-cursos;
+
+        .precio{
+            h4{
+                font-size: 18px;
+                color: $color-morado;
+                font-weight: 500;
+
+            }
+            .costo{
+                color: $color-negro;
+                font-size: 25px;
+                font-weight: 500;
+            }
+        }
+        .descripcion{
+            p{
+                color: $color-gris-texto-cursos;
+            }
+
+        }
+        .asiste{
+            float: right;
+            
+            // background-color: chartreuse;
+            p{
+                text-align: center;
+                padding: 10px;
+                background-color: $color-morado;
+                color: $color-blanco;
+                width: 40%;
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 5%;
+            }
+            p:hover{
+                opacity: 0.5;
+            }
+        }
+
+    }
+}

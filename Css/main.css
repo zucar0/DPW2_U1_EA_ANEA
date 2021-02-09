@@ -7608,3 +7608,53 @@ main {
         width: 45%;
         text-align: right;
         color: #CF1BBB; }
+
+.contenidoPrincipalDesarrollo {
+  background-color: white;
+  height: 740px;
+  width: 100%;
+  color: royalblue;
+  display: inline;
+  text-align: center; }
+  .contenidoPrincipalDesarrollo h3 {
+    color: #CF1BBB;
+    font-weight: 900;
+    font-size: xx-large;
+    padding: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: auto;
+    margin-right: auto; }
+  .contenidoPrincipalDesarrollo p {
+    color: #000000;
+    font-weight: 600;
+    font-size: medium;
+    padding: 25px;
+    font-family: 'Segoe UI';
+    margin-left: auto;
+    margin-right: auto; }
+  .contenidoPrincipalDesarrollo section {
+    width: 45%;
+    display: inline-block;
+    margin-top: 50px;
+    align-content: center;
+    margin-bottom: 50px; }
+    .contenidoPrincipalDesarrollo section img {
+      width: 55%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
+    .contenidoPrincipalDesarrollo section h4 {
+      color: #CF1BBB;
+      font-size: 30px;
+      padding: 15px;
+      text-align: center; }
+    .contenidoPrincipalDesarrollo section p {
+      width: 75%;
+      max-width: 350px;
+      color: #B2B2B2;
+      font-size: medium;
+      text-align: justify;
+      line-height: 250%;
+      padding: 40px; }
+    .contenidoPrincipalDesarrollo section p:hover {
+      border: 1px solid blueviolet; }

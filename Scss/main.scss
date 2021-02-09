@@ -578,3 +578,64 @@ main{
         }
     }
 }
+
+//Contenido en main de Desarrollo de Software
+
+.contenidoPrincipalDesarrollo{
+    background-color: $color-blanco;
+    height: $altoMain;
+    width: 100%;
+    color: royalblue;
+    display: inline;
+    text-align: center;
+    h3{
+        color: $color-morado;
+        font-weight: 900;
+        font-size: xx-large;
+        padding: 25px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p{
+        color: $color-negro;
+        font-weight: 600;
+        font-size: medium;
+        padding: 25px;
+        font-family: 'Segoe UI';
+        margin-left: auto;
+        margin-right: auto;
+    }
+    section{
+        width: 45%;
+        display: inline-block;
+        margin-top: 50px;
+        align-content: center;
+        margin-bottom: 50px;
+        img{
+            width: 55%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        h4{
+            color: $color-morado;
+            font-size: 30px;
+            padding: 15px;
+            text-align: center;
+        }
+        p{
+            width:75%;
+            max-width:350px;
+            // background-color: blueviolet;
+            color: $color-gris-texto-cursos;
+            font-size:medium;
+            text-align: justify;
+            line-height: 250%;
+            padding: 40px;
+        }
+        p:hover{
+            border: 1px solid blueviolet;
+        }
+    }
+}

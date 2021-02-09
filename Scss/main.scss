@@ -486,3 +486,95 @@ main{
     }
 
 }
+
+//Contenido en main de Contacto
+.contenidoPrincipalContacto{
+    background-color: $color-blanco;
+    height: $altoMain;
+    width: 100%;
+    color: royalblue;
+    display: inline;
+    section{
+        width: 45%;
+        display: inline-block;
+        margin-top: 50px;
+        align-content: center;
+        margin-bottom: 50px;
+        img{
+            width: 55%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        h3{
+            color: $color-negro;
+            font-size: xx-large;
+            padding: 25px;
+            text-align: center;
+        }
+        p{
+            color: $color-negro;
+            font-size:medium;
+            text-align: justify;
+            line-height: 250%;
+        }
+    }
+    .seccionContactanos{
+        width: 45%;
+        margin-left: 35px;
+        
+        form{
+
+            input[type=text], input[type=email] {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                box-sizing: border-box;
+                font-size: medium;
+                color: $color-gris-texto-cursos;
+            }
+            input[type=text]:focus, input[type=email]:focus {
+                  background-color: #ff85ef;
+                  font-size: medium;
+
+            }
+            input[type=button]{
+                background-color:$color-morado;
+                border: none;
+                color: white;
+                padding: 16px 32px;
+                text-decoration: none;
+                margin: 4px 2px;
+                cursor: pointer;
+                font-size: medium;
+            }
+        }
+    }
+    .seccionMapa{
+        width: 45%;
+        align-content: center;
+        margin-left: 55px;
+        
+        iframe{
+            width: 690px;
+            height: 300px;
+            
+        }
+
+        div{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            .direccion{
+                width: 45%;
+                color: $color-morado;
+            }
+            .correo{
+                width: 45%;
+                text-align: right;
+                color: $color-morado;
+            }
+        }
+    }
+}

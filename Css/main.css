@@ -7539,3 +7539,72 @@ main {
         margin-right: auto; }
     .contenidoPrincipalDiplomados .javaS .javaLogo {
       width: 100%; }
+
+.contenidoPrincipalContacto {
+  background-color: white;
+  height: 740px;
+  width: 100%;
+  color: royalblue;
+  display: inline; }
+  .contenidoPrincipalContacto section {
+    width: 45%;
+    display: inline-block;
+    margin-top: 50px;
+    align-content: center;
+    margin-bottom: 50px; }
+    .contenidoPrincipalContacto section img {
+      width: 55%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
+    .contenidoPrincipalContacto section h3 {
+      color: #000000;
+      font-size: xx-large;
+      padding: 25px;
+      text-align: center; }
+    .contenidoPrincipalContacto section p {
+      color: #000000;
+      font-size: medium;
+      text-align: justify;
+      line-height: 250%; }
+  .contenidoPrincipalContacto .seccionContactanos {
+    width: 45%;
+    margin-left: 35px; }
+    .contenidoPrincipalContacto .seccionContactanos form input[type=text], .contenidoPrincipalContacto .seccionContactanos form input[type=email] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      font-size: medium;
+      color: #B2B2B2; }
+    .contenidoPrincipalContacto .seccionContactanos form input[type=text]:focus, .contenidoPrincipalContacto .seccionContactanos form input[type=email]:focus {
+      background-color: #ff85ef;
+      font-size: medium; }
+    .contenidoPrincipalContacto .seccionContactanos form input[type=button] {
+      background-color: #CF1BBB;
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      text-decoration: none;
+      margin: 4px 2px;
+      cursor: pointer;
+      font-size: medium; }
+  .contenidoPrincipalContacto .seccionMapa {
+    width: 45%;
+    align-content: center;
+    margin-left: 55px; }
+    .contenidoPrincipalContacto .seccionMapa iframe {
+      width: 690px;
+      height: 300px; }
+    .contenidoPrincipalContacto .seccionMapa div {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+      margin-bottom: 10px; }
+      .contenidoPrincipalContacto .seccionMapa div .direccion {
+        width: 45%;
+        color: #CF1BBB; }
+      .contenidoPrincipalContacto .seccionMapa div .correo {
+        width: 45%;
+        text-align: right;
+        color: #CF1BBB; }
